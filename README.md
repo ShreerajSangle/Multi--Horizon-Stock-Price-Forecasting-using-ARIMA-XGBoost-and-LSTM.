@@ -1,0 +1,2 @@
+# Multi--Horizon-Stock-Price-Forecasting-using-ARIMA-XGBoost-and-LSTM.
+This project predicts stock trends for top S&amp;P 500 companies using a hybrid ARIMA-XGBoost-LSTM model. It forecasts 1-day, 5-day, and 20-day movements using technical indicators and sentiment analysis. Outputs include confidence-based predictions and direction forecasts, evaluated using RMSE, MAE, and accuracy metrics for reliable market insights.
