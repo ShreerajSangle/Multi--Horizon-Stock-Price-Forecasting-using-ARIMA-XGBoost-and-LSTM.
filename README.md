@@ -40,27 +40,6 @@ Scope: Historical OHLCV data of top 100 S&P 500 stocks
 
 Features: Price data + Technical indicators (EMA, RSI, MACD)
 
-⚙️ Project Structure
-kotlin
-Copy
-Edit
-├── data/
-│   └── raw & preprocessed stock data
-├── models/
-│   ├── arima_model.py
-│   ├── xgboost_model.py
-│   └── lstm_model.py
-├── utils/
-│   └── preprocessing.py, feature_engineering.py
-├── notebooks/
-│   └── analysis and visualization
-├── results/
-│   └── prediction_outputs/
-│       ├── *_metrics.txt
-│       └── *_predictions.txt
-├── main.py
-├── README.md
-└── requirements.txt
 
 🧪 Evaluation Results
 Horizon	Avg RMSE	Avg MAE	Directional Accuracy
